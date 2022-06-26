@@ -1,0 +1,154 @@
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+section{
+   
+  height: 800px;
+/* margin-bottom: 150px;*/
+ background-repeat:no-repeat;
+ 
+}
+
+/* top part css*/
+.name{
+    font-size: 35px;
+    color: rgba(189, 22, 114, 0.884);
+}
+
+/* top part and biography part divide 2 section */
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 8%;
+    padding-left: 2%;
+    margin-top: 5%;
+    
+}
+
+/* top part and biography images work*/
+.half-width img{
+    width: 80%;
+}
+
+/*==========intro para==============*/
+.top-para{
+    padding-top: 20%;
+}
+
+/*=========hire me button==============*/
+.button {
+    background-color:rgba(189, 22, 114, 0.884);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5%;
+  }
+
+  /*==========top background image==============*/
+  .top-banner{
+ 
+    background-image: url("images/header-bg.png");
+  
+    
+    }
+
+ /*==========Biography para==============*/
+  
+.biography{
+    margin-right: 8%;
+    padding-right: 2%;
+}
+
+/*==========Biography backgroud image==============*/
+.biography-background{
+    background-image: url("images/biography-bg.png");
+}
+    
+
+/*==========Latest work part divide in 3 column==============*/
+ .column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    margin-top: 3%;
+
+  }
+
+ 
+/* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  /*==========latest work images padding and background==============*/
+  .divide-img{
+   padding-left: 15%;
+   background-image: url("images/latest-work-bg.png");
+   height: 400px;
+  
+}
+
+/*==========Latest work line in the center==============*/
+
+  .latest-work{
+   
+    padding-left:30%;
+  }
+
+
+  /*==========last part name whats say our client==============*/
+
+  .brucy{
+    
+    text-align: center;
+    font-size: 12px;
+  }
+  .clients{
+   
+      text-align: center; 
+     }
+
+     
+     .last-para{
+        text-align: center;
+     }
+     
+     /*==========last box for email address==============*/
+
+     .last-para-button{
+        
+        
+        background-color: rgba(189, 22, 114, 0.884);
+        margin: auto;
+        width: 500px;
+        height:60px ;
+        border: 3px ;
+        margin-top: 5%;
+        padding: 40px;
+        text-align: center;
+        color: white;
+        border-radius: 10px;
+
+     
+    
+     }
+
+     footer{
+      
+        text-align: center;
+     }
+
+     /*==========footer background==============*/
+     .last-bg{
+
+      background-image: url("images/footer-bg.png");
+      height: 500px;
+
+     }
